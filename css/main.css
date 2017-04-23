@@ -1,0 +1,54 @@
+body, html {
+  font-family: "Microsoft YaHei UI";
+  font-weight: lighter;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  background: url("http://i2.muimg.com/567571/4b13031d49a6d265.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.header p:first-child {
+  font-size: 5rem;
+}
+.header p:last-child {
+  font-size: 1.5rem ;
+}
+
+.main {
+  background: #2c3e50;
+  color: white;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.description, .skill, .portfolio {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+}
+.left {
+  flex: 2;
+}
+.right {
+  flex: 3;
+}
+
+.article {
+  background: #f2f2f2;
+  color: #2c3e50;
+}
+.main a {
+  text-decoration: none;
+  color: deeppink;
+}
