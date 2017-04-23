@@ -32,7 +32,7 @@ body, html {
   margin: 0 auto;
 }
 
-.description, .skill, .portfolio {
+.description, .skill, .portfolio, .contacts {
   padding-top: 5rem;
   padding-bottom: 5rem;
   display: flex;
